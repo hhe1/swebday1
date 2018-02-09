@@ -1,0 +1,10 @@
+1 spring web项目整合只需要在web.xml中添加对应的ContextLoaderListener
+  ContextLoaderListener实现了servletcontextlistener会在容器时进行加载
+  ContextLoaderListener会初始化context-param中配置的locations
+  
+  
+2 web 项目需要在spring的基础上spring-webmvc，spring-web这两个包
+
+
+3 local 在ref标签中不再使用，而是bean代替
+  
